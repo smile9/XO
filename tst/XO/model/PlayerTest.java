@@ -11,7 +11,12 @@ public class PlayerTest {
 
     @Test
     public void testGetName() throws Exception {
+        final String inputValue = "Slava";
+        final String expectedValue = inputValue;
+        final Player player = new Player("Slava", null);
+        final String actualValue = player.getName();
 
+        assertEquals(expectedValue, actualValue);
     }
 
     @Test
