@@ -11,7 +11,7 @@ public class Player {
 
     public Player(final String name, final Figure figure) {
         this.name = name;
-        this.figure = null;
+        this.figure = figure;
     }
     public String getName()
     {
